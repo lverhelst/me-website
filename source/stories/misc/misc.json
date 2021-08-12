@@ -4,14 +4,62 @@
         {
             "img":"stories/misc/misc1.jpg",
             "img_prev": "misc1.html",
-            "img_next": "misc1.html",
+            "img_next": "misc2.html",
             "img_first":"misc1.html",
-            "img_last": "misc1.html",
+            "img_last": "misc5.html",
             "caption": "",
             "paragraph title": "",
             "paragraph text" : "",
             "title": "PzenQ COMIC",
             "alt_text": ":( sorry the image didn't load."
-        }   
+        },
+        {
+            "img":"stories/misc/misc2.jpg",
+            "img_prev": "misc1.html",
+            "img_next": "misc3.html",
+            "img_first":"misc1.html",
+            "img_last": "misc5.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "PzenQ COMIC",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/misc/misc3.jpg",
+            "img_prev": "misc2.html",
+            "img_next": "misc4.html",
+            "img_first":"misc1.html",
+            "img_last": "misc5.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "PzenQ COMIC",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/misc/misc4.jpg",
+            "img_prev": "misc3.html",
+            "img_next": "misc5.html",
+            "img_first":"misc1.html",
+            "img_last": "misc5.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "PzenQ COMIC",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/misc/misc5.jpg",
+            "img_prev": "misc4.html",
+            "img_next": "misc5.html",
+            "img_first":"misc1.html",
+            "img_last": "misc5.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "PzenQ COMIC",
+            "alt_text": ":( sorry the image didn't load."
+        }
     ]
 }
