@@ -1,0 +1,53 @@
+{
+    "pages": 
+    [
+        {
+            "img":"stories/redfern/redfern1.jpg",
+            "img_prev": "redfern1.html",
+            "img_next": "redfern2.html",
+            "img_first":"redfern1.html",
+            "img_last": "redfern4.html",
+            "caption": "The beginning",
+            "paragraph title": "Planning",
+            "paragraph text" : "Maybe I'll add more explanations, maybe I wont",
+            "title": "Redfern Trip 2018",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/redfern/redfern2.jpg",
+            "img_prev": "redfern1.html",
+            "img_next": "redfern3.html",
+            "img_first":"redfern1.html",
+            "img_last": "redfern4.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "Redfern Trip 2018",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/redfern/redfern3.jpg",
+            "img_prev": "redfern2.html",
+            "img_next": "redfern4.html",
+            "img_first":"redfern1.html",
+            "img_last": "redfern4.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "Redfern Trip 2018",
+            "alt_text": ":( sorry the image didn't load."
+        },
+        {
+            "img":"stories/redfern/redfern4.jpg",
+            "img_prev": "redfern3.html",
+            "img_next": "redfern4.html",
+            "img_first":"redfern1.html",
+            "img_last": "redfern4.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "Redfern Trip 2018",
+            "alt_text": ":( sorry the image didn't load."
+        }
+    ]
+}

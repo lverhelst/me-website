@@ -1,0 +1,23 @@
+{
+    "pages": 
+    [
+        {
+            "img":"stories/cronins/cronin1.jpg",
+            "caption": "The beginning",
+            "paragraph title": "Cutting out teeth",
+            "paragraph text" : "We pedaled till the creek."
+        },
+        {
+            "img":"stories/cronins/cronin2.jpg",
+            "caption": "The middle",
+            "paragraph title": "Winching",
+            "paragraph text" : "Post creek, up hill"
+        },
+        {
+            "img":"stories/cronins/cronin3.jpg",
+            "caption": "The destination",
+            "paragraph title": "1 score and 0 years ago",
+            "paragraph text" : "Dream came true. Write paragraph in cronins.json to make it appear here."
+        }   
+    ]
+}

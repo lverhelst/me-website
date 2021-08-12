@@ -1,0 +1,16 @@
+{% extends "base" %}
+{% block content %}
+{%WHILE_IMG%}
+<div class="bgimg" style='background-image: url("{%img%}");'>
+    <div class="caption">
+        <span class="border">{%caption%}</span>
+    </div>
+</div>
+<!--{% IF var["PARA_TEXT"] IS NOT NULL %}-->
+<div class="paragraph">
+    <h3 style="text-align:center;">{%paragraph title%}</h3>
+    <p>{%paragraph text%}</p>
+</div>
+<!--{% ENDIF %}-->
+{%ENDWHILE_IMG%}
+{% endblock %}

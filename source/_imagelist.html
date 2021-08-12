@@ -1,0 +1,17 @@
+{% extends "base" %}
+{% block content %}
+{%rinse%}
+<table class="nav">
+    <tr>
+    <td class="first"><a href="{%img_first%}">|<<a></td>
+    <td class="prev" ><a accesskey="p" id="prev" href="{%img_prev%}">PREV</a></td>
+    <td class="img_title"></td>
+    <td class="next" ><a accesskey="n" id="next" href="{%img_next%}">NEXT</a></li>
+    <td class="last"><a href="{%img_last%}">>|</a></li>
+    </tr>
+</table>
+<div class="img_container">
+    <img class="img_" src="{%img%}" />
+</div>
+{%repeat%}
+{% endblock %}

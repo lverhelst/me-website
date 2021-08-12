@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="javascript/script.js"></script>
+       <link rel="stylesheet" href="css/style.css"/>      
+       <title>misc1</title> 
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="index.html">[Bio]</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="dropdownbtn" onclick="togglebtn()">[Stories]</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Since I'm making my own static website generator I need a markup. We'll blatantly rip off Django templates-->
+                    <!-- cronins is a parallax story cause why not-->
+                    <a href="cronins.html">[Cronins]</a>
+                    <!-- redfern is a series of scanned images so I need to generate a page per image in the folder=%name% folder-->
+                    <a href="redfern1.html">[Redfern]</a>
+                    <!-- misc is also a series of scalled images -->
+                    <a href="misc1.html">[Misc]</a>
+                </div>     
+            </div>
+            <a href="readinglist.html">[Random Links]</a>
+            <a href="playground.html">[Other]</a>
+        </div>
+        <div class="main">        
+        
+
+<table class="nav">
+    <tr>
+    <td class="first"><a href="misc1.html">|<<a></td>
+    <td class="prev" ><a accesskey="p" id="prev" href="misc1.html">PREV</a></td>
+    <td class="img_title"></td>
+    <td class="next" ><a accesskey="n" id="next" href="misc1.html">NEXT</a></li>
+    <td class="last"><a href="misc1.html">>|</a></li>
+    </tr>
+</table>
+<div class="img_container">
+    <img class="img_" src="stories/misc/misc1.jpg" />
+</div>
+
+
+        </div>    
+    </body>
+</html>

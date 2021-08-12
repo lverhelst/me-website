@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="javascript/script.js"></script>
+       <link rel="stylesheet" href="css/style.css"/>      
+       <title>readinglist.html</title> 
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="index.html">[Bio]</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="dropdownbtn" onclick="togglebtn()">[Stories]</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Since I'm making my own static website generator I need a markup. We'll blatantly rip off Django templates-->
+                    <!-- cronins is a parallax story cause why not-->
+                    <a href="cronins.html">[Cronins]</a>
+                    <!-- redfern is a series of scanned images so I need to generate a page per image in the folder=%name% folder-->
+                    <a href="redfern1.html">[Redfern]</a>
+                    <!-- misc is also a series of scalled images -->
+                    <a href="misc1.html">[Misc]</a>
+                </div>     
+            </div>
+            <a href="readinglist.html">[Random Links]</a>
+            <a href="playground.html">[Other]</a>
+        </div>
+        <div class="main">        
+        
+<p>
+    Here I store links I like.
+</p>
+<p>
+    Updated occasionally. When the spirit moves me.
+</p>
+<ul>
+    <li>
+        <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-05948-8_14">mEMR: A Secure Mobile Platform Integrated with Electronic Medical Records</a>
+        <p>
+        Basically we made an email-like app for iPads and Android tablets that could create, read and transfer HL7 messages with any EMR using CDA(CDX) services. 
+        </p>
+    </li>
+    <li>
+        <a href="https://motherfuckingwebsite.com/">Someone's Website Design Philosophy</a>
+    </li>
+    <li>
+        <a href="http://www.paulgraham.com/avg.html">That one LISP story "Beating the averages"</a>    
+    </li>
+    <li>
+        <a href="https://alttour.ef.com/">Lachlan Morton's Alt Tour 2021</a>
+    </li>
+
+    <li>
+        <a href="https://www.clippercanoes.com/blogs/stories/cross-canada-solo-canoe-expedition">Solo Cross Canada Canoe Expedition</a>
+    </li>
+    
+</ul>
+
+        </div>    
+    </body>
+</html>

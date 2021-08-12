@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="javascript/script.js"></script>
+       <link rel="stylesheet" href="css/style.css"/>      
+       <title>index.html</title> 
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="index.html">[Bio]</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="dropdownbtn" onclick="togglebtn()">[Stories]</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Since I'm making my own static website generator I need a markup. We'll blatantly rip off Django templates-->
+                    <!-- cronins is a parallax story cause why not-->
+                    <a href="cronins.html">[Cronins]</a>
+                    <!-- redfern is a series of scanned images so I need to generate a page per image in the folder=%name% folder-->
+                    <a href="redfern1.html">[Redfern]</a>
+                    <!-- misc is also a series of scalled images -->
+                    <a href="misc1.html">[Misc]</a>
+                </div>     
+            </div>
+            <a href="readinglist.html">[Random Links]</a>
+            <a href="playground.html">[Other]</a>
+        </div>
+        <div class="main">        
+        
+
+<!--nice-->
+<img style="height:169px;margin: 0px 10px 0px 0px;"  src="stories/brofile.jpg" align="left"  ></img>        
+<p>
+    I am Leon Verhelst. Welcome to my website.
+    <br/>
+    <br/>
+    <a href="https://www.youtube.com/watch?v=SNgNBsCI4EA">Hey look buddy, I'm an (software) engineer. That means I solve problems, not problems like "What is beauty?" Because that would fall within the purview of your conundrums of philosophy. I solve practical problems, for instance:</a> how am I going to build myself a website. The answer? A bit by hand, a bit with a custom static website generator built by me, for me.
+    <br/>
+    <br/>
+    I love my wife and my dogs, they are my favourite.
+    <br/>
+    I like bikes and mountains, ideally both at the same time.
+    <br/>
+    <br/>
+    Feel free to contact me @ <a href="mailto:verhelst.leon.i@gmail.com">verhelst.leon.i@gmail.com</a>
+    <br/>
+    <br/>
+    I'm also on <a href="https://www.strava.com/athletes/1335601">Strava</a> 
+</p>    
+
+
+<!-- Well hello there -->
+<!-- 
+
+    TODO: Ascii art here for them F12 people.
+
+-->
+
+        </div>    
+    </body>
+</html>

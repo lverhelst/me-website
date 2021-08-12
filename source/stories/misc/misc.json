@@ -1,0 +1,17 @@
+{
+    "pages": 
+    [
+        {
+            "img":"stories/misc/misc1.jpg",
+            "img_prev": "misc1.html",
+            "img_next": "misc1.html",
+            "img_first":"misc1.html",
+            "img_last": "misc1.html",
+            "caption": "",
+            "paragraph title": "",
+            "paragraph text" : "",
+            "title": "PzenQ COMIC",
+            "alt_text": ":( sorry the image didn't load."
+        }   
+    ]
+}

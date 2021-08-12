@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="javascript/script.js"></script>
+       <link rel="stylesheet" href="css/style.css"/>      
+       <title>cronins.html</title> 
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="index.html">[Bio]</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="dropdownbtn" onclick="togglebtn()">[Stories]</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Since I'm making my own static website generator I need a markup. We'll blatantly rip off Django templates-->
+                    <!-- cronins is a parallax story cause why not-->
+                    <a href="cronins.html">[Cronins]</a>
+                    <!-- redfern is a series of scanned images so I need to generate a page per image in the folder=%name% folder-->
+                    <a href="redfern1.html">[Redfern]</a>
+                    <!-- misc is also a series of scalled images -->
+                    <a href="misc1.html">[Misc]</a>
+                </div>     
+            </div>
+            <a href="readinglist.html">[Random Links]</a>
+            <a href="playground.html">[Other]</a>
+        </div>
+        <div class="main">        
+        
+
+<div class="bgimg" style='background-image: url("stories/cronins/cronin1.jpg");'>
+    <div class="caption">
+        <span class="border">The beginning</span>
+    </div>
+</div>
+<!--{% IF var["PARA_TEXT"] IS NOT NULL %}-->
+<div class="paragraph">
+    <h3 style="text-align:center;">Cutting out teeth</h3>
+    <p>We pedaled till the creek.</p>
+</div>
+<!--{% ENDIF %}-->
+
+<div class="bgimg" style='background-image: url("stories/cronins/cronin2.jpg");'>
+    <div class="caption">
+        <span class="border">The middle</span>
+    </div>
+</div>
+<!--{% IF var["PARA_TEXT"] IS NOT NULL %}-->
+<div class="paragraph">
+    <h3 style="text-align:center;">Winching</h3>
+    <p>Post creek, up hill</p>
+</div>
+<!--{% ENDIF %}-->
+
+<div class="bgimg" style='background-image: url("stories/cronins/cronin3.jpg");'>
+    <div class="caption">
+        <span class="border">The destination</span>
+    </div>
+</div>
+<!--{% IF var["PARA_TEXT"] IS NOT NULL %}-->
+<div class="paragraph">
+    <h3 style="text-align:center;">1 score and 0 years ago</h3>
+    <p>Dream came true. Write paragraph in cronins.json to make it appear here.</p>
+</div>
+<!--{% ENDIF %}-->
+
+
+        </div>    
+    </body>
+</html>
