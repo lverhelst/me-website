@@ -2,22 +2,34 @@
     "pages": 
     [
         {
+            "img":"stories/cronins/cronin0.jpg",
+            "caption": "Cronin's Pass",
+            "paragraph title": "Foray into Bikepacking",
+            "paragraph text" : "When I was a boy in 4H we did an 2-week-here, 2-week-there visit with some other 4H clubs in Saskatchewan. The visit to BC for the the Saskanites (Saskatchewanians?) culminated in the overnight hike up to the Silverking Basin with a stay at the L'Orsa Cabin. I distinctly recall gazing up at the Hyland Pass (also known as Cronin's Pass) from the L'Orsa Cabin and promising myself that I would one day return and traverse the trail tjat wound its way into the mountains beyond. A decade or so later, Andrew and I embarked on the trip as our first foray into the world of bikepacking. Being originally from the area we had a few advantages, primarly we were able to coersce my mom into running shuttle for us, allowing us to drop off on the Babine Lake side of the Babine mountains. With no dedicated bikepacking gear, we simply tossed our sleeping gear, cooking supplied and food into our hiking packs. We both had roughly 30lbs on our backs for the trip."
+        },
+        {
             "img":"stories/cronins/cronin1.jpg",
-            "caption": "The beginning",
-            "paragraph title": "Cutting out teeth",
-            "paragraph text" : "We pedaled till the creek."
+            "caption": "First kilometers",
+            "paragraph title": "The adventure begins",
+            "paragraph text" : "The Cronin's Pass trail is an old mining road from the early and mid-20th century. The old mining road is eroding and growing over but Andrew and I followed it without any difficulty, other than becoming completely drenched in the dew of the underbrush and the light scattered showers that continued for the entire trip. After around 10km of relatively flat riding we reached a creek and forded it, merely suffering freezing toes from the glacial waters. A quick snack break and we continued. Sometime between the creek and the shack (above) I broke my rear shifter. I was running a poor man's 1x system on my bike, which was just a wide cassette in the back and my regular 2x chainrings in the front but sans a front shifter. Deciding that I needed to use my lowest available gearing, I manually adjusted my chain from the larger chainring to the smaller chainring. During this process the derailleur cable jammed in the shifter, leaving me with only the lowest gear. We took lunch at the dilapidated cabin and I used Andrew's multitool (mine didn't have a 1.5mm allen key) to rip apart my shifter housing and reposition the cable. This mostly did the trick as I gained my bottom three gears back as well as my top two. Five out of ten is a pass, so after a quick lunch, up the mountain we went."
         },
         {
             "img":"stories/cronins/cronin2.jpg",
-            "caption": "The middle",
+            "caption": "Brush",
             "paragraph title": "Winching",
-            "paragraph text" : "Post creek, up hill"
+            "paragraph text" : "The trail had been mostly flat up to the spot we took lunch. It took us a short moment to find the trail as the trail is swarming with chest height saplings and other shrubbery. The trail immediately went up. And up. And up. Gaining 800m in just over 8km: it's a brute. Add on the loose shale, saplings at tall as a 6 foot person and it can become slow going."
         },
         {
             "img":"stories/cronins/cronin3.jpg",
+            "caption": "Alpine",
+            "paragraph title": "The storm that wasn't",
+            "paragraph text" : "As the altitude clicked upwards, the trees thinned out and the trail regained a semblance of normalcy. We breached the tree line and took our time exploring an old mining site. On our return to the bikes the mountain pass flexed it's moisture muscles and drenched us in what can only be described as a rudely righteous downpour. I spotted someone above us on a ridge in the alpine, but we didn't meet up with the person and they weren't far away, so Andrew and I concur that the human figure was likely just my imagination. We lost the trail a bit as it disappeared into a shale slope, but discovered it once again by pushing forwards. The winds picked up and our body temperatures started dropping rapidly near the highest point of the pass. My hands started to become numb and we took shelter from the wind behind a rock in a depression beside the trail. Andrew had some caffinated pre-workout powder that was sure to give us a pick-me-up. It was concerningly difficult to undo the lid of the water bottle so that I could imbue its contents with the powder. I also took the chance to toss on my dollar store poncho for extra wind protection as my lightweight cycling jacket was no match for the wet and the wind. With feeling returning to our fingers, we continued on, hiking as much as biking. <br/> The alpine pass was beautiful, and harsh. We carefully picked our way across the odd snow drift that still covered the trail to a depth of a few feet. The pass contains a lot of shale and not much else above the treeline except for some hardy bushes and wildflowers and whistling! Loud whistling! Someone waas in trouble certainly! Nope. It was just a marmot telling us to get lost, which we weren't any more. And certainly, we were approaching our goal of the L'Orsa Cabin"
+        },
+        {
+            "img":"stories/cronins/cronin4.jpg",
             "caption": "The destination",
-            "paragraph title": "1 score and 0 years ago",
-            "paragraph text" : "Dream came true. Write paragraph in cronins.json to make it appear here."
+            "paragraph title": "L'Orsa Cabin",
+            "paragraph text" : "I was first to spot the cabin, as my long legs give me pretty decent advantage in the rough, rocky traverses. As I looked down at the cabin I thought about my younger self. I could picture him: standing there gazing up at where I was now and I remembered my vow to be where I was, looking down at where I used to be so many years ago. I wish that moment could last longer, I wish everyone experiences a moment where a childhood dream is fulfilled. It is truely satisfying. We descended the tricky and steep switchbacks to the cabin and spent the night. We were joined by a small family of four and later by a lovestruck young couple that were very into eachother. A restful sleep later, we quickly descended to the truck. I'd do it again. For sure. <br/><br/><p>Strava ridelog: <a href=\"https://www.strava.com/activities/1097983143\">here</a>"
         }   
     ]
 }

@@ -62,7 +62,7 @@ def main(argv):
             if t_type in ('base', 'parallax'):
                 nf = applytemplate(t_type, templatecontents, inf)
                 ### TODO configure_titles (replace all the {{Title}})
-                nf = nf.replace('{% title %}', tail)
+                nf = nf.replace('{% title %}', tail.split('.')[0])
                 #save to output folder
                 of = open(outputfolder + '/' + tail, 'w')
                 of.write(nf)
