@@ -130,10 +130,16 @@ def applyparallaxtemplate(templatefilecontents,inheritingfilecontents):
     json_contents = open('source/stories/' + folder + '/' + json_file, 'r').read()    
     j = json.loads(json_contents)
     
-    for k in j["pages"]:
+
+    for i, k in enumerate(j["pages"]):
         for attr, vl in k.items():
             template_html = template_html.replace('{%' + attr + '%}',vl)
+        if(i != len(j["pages"]) -1):
+            template_html = template_html.replace('{%style%}', '')
+        else:
+            template_html = template_html.replace('{%style%}','style="height:50vh"')
         template_html += template_stash
+    
     #super lazy way to get rid of the last template_stash that gets added
     #a do...while would have been better
     template_html = template_html.replace(template_stash, '')
