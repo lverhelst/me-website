@@ -172,3 +172,9 @@ body, button {
 .nolist {
     list-style: none;
 }
+
+.eights {
+    overscroll-behavior: contain;
+    text-align:center;
+    width:100%
+}
