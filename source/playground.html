@@ -1,7 +1,19 @@
 {% extends "base" %}
+{%script%}
+<script src="javascript/8s.js"></script>
+{%endscript%}
 {% block content %}
-<p>Might play around with the js canvas here</p>
-<br/>
-<br/>
-<a href="https://www.youtube.com/watch?v=SNgNBsCI4EA">Hey look buddy, I'm an (software) engineer. That means I solve problems, not problems like "What is beauty?" Because that would fall within the purview of your conundrums of philosophy. I solve practical problems, for instance:</a> how am I going to build myself a website. The answer? A bit by hand, a bit with a custom static website generator built by me, for me.
+    <a id="r1">xxx</a><br/>
+    <a id="r2">xxx</a><br/>
+    <a id="r3">xxx</a><br/>
+    <br/>
+    <a id="msg">0 moves</a>
+    <div>
+        <kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> to move
+    </div>
+    <div>
+        <button onclick="reset()">
+            <kbd>r</kbd> or <kbd>Enter</kbd> to reset
+        </button>    
+    </div>
 {% endblock %}

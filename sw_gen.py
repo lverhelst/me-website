@@ -104,6 +104,11 @@ def applybasetemplate(templatefilecontents, inheritingfilecontents):
     tf_copy = templatefilecontents
     tf_copy = tf_copy.replace('{%block_content%}',
     inheritingfilecontents.split("{% block content %}")[1].split("{% endblock %}")[0])
+    if("{%script%}" in inheritingfilecontents):
+        tf_copy = tf_copy.replace('{%script%}',
+        inheritingfilecontents.split("{%script%}")[1].split("{%endscript%}")[0])
+    else:
+        tf_copy = tf_copy.replace('{%script%}', '')
     return tf_copy
 
 def applyparallaxtemplate(templatefilecontents,inheritingfilecontents):
