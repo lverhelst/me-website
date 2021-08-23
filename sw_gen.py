@@ -142,7 +142,7 @@ def applyparallaxtemplate(templatefilecontents,inheritingfilecontents):
         if(i != len(j["pages"]) -1):
             template_html = template_html.replace('{%style%}', '')
         else:
-            template_html = template_html.replace('{%style%}','style="height:50vh"')
+            template_html = template_html.replace('{%style%}','style="height:50vh;font-size:22px;"')
         template_html += template_stash
     
     #super lazy way to get rid of the last template_stash that gets added

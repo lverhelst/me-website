@@ -1,7 +1,9 @@
 body, button {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 0px 0px 0px;
-  }
+    overscroll-behavior: none;
+    font-size: 22px;
+}
 
 .sidebar {
     height: 100%;
@@ -174,7 +176,7 @@ body, button {
 }
 
 .eights {
-    overscroll-behavior: contain;
     text-align:center;
-    width:100%
+    width:100%;
+    font-size:48px;
 }
