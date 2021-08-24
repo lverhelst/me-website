@@ -2,6 +2,19 @@ winning_arr = [["1","2","3"],["4","5","6"],["7","8","x"]];
 arr = init_arr();
 flag = false;
 moves = 0;
+clock_go = false;
+clock_start = null;
+
+
+setInterval(update_timer, 100);
+function update_timer(){
+    if(clock_go){
+        time = Date.now() - clock_start;
+        document.getElementById("stopwatch").text = msToTime(time);
+    }
+}
+
+
 
 window.onload = function () {
     display_arr(arr);
@@ -11,13 +24,15 @@ $(document).keydown(function(e) {
     doMove(e.which);
 });
 
+
 //Should probably enum the moves
 function doMove(move){
     process_input(arr, move);
     display_arr(arr);  
     flag = JSON.stringify(arr) == JSON.stringify(winning_arr);
     if(flag){
-        document.getElementById("msg").text = "Winner winner in " + moves + " moves (Press 'r' to reset)";
+        clock_go = false;
+        document.getElementById("msg").text = "Winner winner in " + moves + " moves";
     }else{
         document.getElementById("msg").text = "" + moves + " moves";        
     }
@@ -33,11 +48,30 @@ function shuffleArray(array) {
     }
 }
 
+//check if there's an odd number of inversions (a bigger number precedes a smaller one), if there are then
+//it's unsolvable
+function solvable(arr){
+    inversions = 0;
+    //don't need to check the last element, since i+1 would be out of bounds
+    for(var i = 0; i < arr.length - 1; i++){
+        for(var j = i + 1; j < arr.length; j++){
+            //ignore "x"
+            if(arr[j] < arr[i] && arr[j] != "x" && arr[i] != "x"){
+                inversions++;
+            }
+        }    
+    }
+    return inversions % 2 == 0;
+}
+
+
 //Initialize
 function init_arr(){
     //init random array
     options= ["1","2","3","4","5","6","7","8","x"]
-    shuffleArray(options)
+    do{
+        shuffleArray(options);
+    }while(!solvable(options))
     //this will get overwritten, initializing to get the shape
     arr = [["1","2","3"],["4","5","6"],["7","8","x"]]
     x = -1
@@ -61,6 +95,8 @@ function reset(){
     arr = init_arr();
     flag = false;
     document.getElementById("msg").text = "0 moves";
+    clock_go = false;
+    document.getElementById("stopwatch").text = "00:00:00.000";
     display_arr(arr);
 }
 
@@ -103,6 +139,12 @@ function process_input(arr, key){
                 moves++;
             }
         }
+
+        if(moves == 1){
+            clock_go = true;
+            clock_start = Date.now();
+        }
+
     }
     return arr;   
 }
@@ -116,6 +158,13 @@ function display_arr(arr){
         }
         document.getElementById("r" + (i+1)).text = txt;
     }
+}
+
+//Source: https://stackoverflow.com/questions/9763441/milliseconds-to-time-in-javascript/51144330
+function msToTime(s) {
+    // Pad to 2 or 3 digits, default is 2
+  var pad = (n, z = 2) => ('00' + n).slice(-z);
+  return pad(s/3.6e6|0) + ':' + pad((s%3.6e6)/6e4 | 0) + ':' + pad((s%6e4)/1000|0) + '.' + pad(s%1000, 3);
 }
 
 //TOUCH STUFF
