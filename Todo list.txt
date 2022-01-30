@@ -1,9 +1,9 @@
 Todo list
-[] choose a hostname
-[] register said hostname with a dns
-[] get a Azure storage account
-[] try manipulat MSFT into giving me shit for free forever
-[] build website 
-[] host on azure storage account
-[] follow that one tutorial that you already lost to host your website & put on a CDN & HTTPS
-[] ensure DNS service (DNSSimple) that I've pointed my hostname to the azure CDN 
+[x] choose a hostname
+[x] register said hostname with a dns
+[x] get a Azure storage account
+[:(] try manipulate MSFT into giving me shit for free forever
+[x] build website 
+[x] host on azure storage account
+[x] follow that one tutorial that you already lost to host your website & put on a CDN & HTTPS
+[x] ensure DNS service (DNSSimple) that I've pointed my hostname to the azure CDN 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="javascript/script.js"></script>
+        
+        <link rel="stylesheet" href="css/style.css"/>      
+        <title>flower202133</title> 
+    </head>
+    <body>
+        <div class="sidebar">
+            <ul class="listbutno"> 
+            <li><a href="index.html">[Bio]</a></li>
+            <li>
+            <div class="dropdown">
+                <button class="dropbtn" id="dropdownbtn" onclick="togglebtn()">[Stories]</button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Since I'm making my own static website generator I need a markup. We'll blatantly rip off Django templates-->
+                    <!-- cronins is a parallax story cause why not-->
+                    <a href="cronins.html">[Cronins]</a>
+                    <!-- redfern is a series of scanned images so I need to generate a page per image in the folder=%name% folder-->
+                    <a href="redfern1.html">[Redfern]</a>
+                    <!-- flowers2021 is also a series of scanned images -->
+                    <a href="flower202101.html">[Flowers 2021]</a>
+                    <!-- misc is also a series of scanned images -->
+                    <a href="misc1.html">[Misc]</a>
+                </div>     
+            </div>
+            </li>
+            <li><a href="readinglist.html">[Some_Links]</a></li>
+            <li><a href="playground.html">[Other]</a></li>
+            </ul>
+        </div>
+        <div class="main">        
+        
+
+<table class="nav">
+    <tr>
+    <td class="first"><a href="flower202101.html">|<<a></td>
+    <td class="prev" ><a accesskey="p" id="prev" href="flower202132.html">PREV</a></td>
+    <td class="img_title"></td>
+    <td class="next" ><a accesskey="n" id="next" href="flower202134.html">NEXT</a></li>
+    <td class="last"><a href="flower202155.html">>|</a></li>
+    </tr>
+</table>
+<div class="img_container">
+    <a href="flower202134.html">
+        <img class="img_" src="stories/flowers2021/flower202133.jpg" />
+    </a>    
+</div>
+
+
+        </div>    
+    </body>
+</html>
